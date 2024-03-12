@@ -1,0 +1,39 @@
+h1 {
+    color: blue;
+}
+
+orange {
+    color: orange;
+    font-size: 125%;
+}
+h3{
+    vertical-align: top;
+}
+image-container{
+    align-items: left,top;
+}
+
+h3{
+    align-items: top;
+}
+pink{
+    color: violet;
+    font-family:'Courier New', Courier, monospace;
+}
+gh1{
+    font-size: 150%;
+    color: blue
+}
+
+h2c{
+    color: violet;
+    
+}
+h4{
+    font-size: 75%
+
+}
+h3 > span { 
+            color: violet; 
+
+}
