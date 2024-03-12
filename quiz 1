@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flight Status</title>
+<style>
+  .departure-section, .arrival-section {
+    border: 3px solid #ac0000;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: grey;
+  }
+  .flight-info {
+    margin-bottom: 10px;
+    border: 3px solid #415031;
+    padding: 10px;
+    background-color: white;
+  }
+  .flight-info span {
+    font-weight: bold;
+    color: #333;
+
+  }
+  .on-time {
+    color: green;
+  }
+  .delayed {
+    color: red;
+  }
+  .early {
+    color: blue;
+  }
+p1{
+    color: #ac0000;
+}
+p2{
+    color: #7dc72f;
+}
+
+h1{
+    color: blue;
+}
+
+body{
+    background-color: gray;
+}
+
+p3{
+    color: orange;
+}
+ 
+</style>
+</head>
+<body>
+ <h1>  
+
+<div class="departure-section">
+    <span><img src="CNAA.png" alt="CNAA" height="200px" width="200" padding="10px">CNA airlines</h1>
+  <h2>Departures - St. John's (YYT)
+  <div class="flight-info">
+    <span>Flight:</span> CNAA0123 - St. John's (YYT) to Toronto (YVZ)<br>
+    <span>Departure:</span><p2> 06:30 NT</p2><br>
+    <span>Arrival:</span> 09:00 ET<br>
+    <span>Status:</span> <span class="on-time"><p2>On Time</p2></span>
+  </div>
+  <div class="flight-info">
+    <span>Flight:</span> CNAA0234 - St. John's (YYT) to Montreal, Mirabel (YMX)<br>
+    <span>Departure:</span><p1> 07:00 NT</p1><br>
+    <span>Arrival:</span> 09:30 ET<br>
+    <span>Status:</span> <span class="delayed"><p1>Delayed 30 minutes</p1></span>
+  </div>
+  <div class="flight-info">
+    <span>Flight:</span> CNAA0345 - St. John's (YYT) to Vancouver (YVR)<br>
+    <span>Departure:</span><p2>06:30 NT</p2><br>
+    <span>Arrival:</span> 12:30 PT<br>
+    <span>Status:</span> <span class="on-time"><p2>On Time</p2></span>
+  </div>
+</div>
+
+<div class="arrival-section">
+  <h2>Arrivals - St. John's (YYT)</h2>
+  <div class="flight-info">
+    <span>Flight:</span> CNAA0321 - Toronto (YYZ) to St. John's (YYT)<br>
+    <span>Departure:</span> 06:30 ET<br>
+    <span>Arrival:</span><p2>14:30 NT</p2><br>
+    <span>Status:</span> <span class="on-time"><p2>On Time</p2></span>
+  </div>
+  <div class="flight-info">
+    <span>Flight:</span> CNAA0432 - Montreal, Mirabel (YMX) to St. John's (YYT)<br>
+    <span>Departure:</span> 07:00 ET<br>
+    <span>Arrival:</span> <p3>11:30 NT</p3><br>
+    <span>Status:</span> <span class="early"><p3>Early 30 minutes</p3></span>
+  </div>
+  <div class="flight-info">
+    <span>Flight:</span> CNAA0543 - Vancouver (YVR) to St. John's (YYT)<br>
+    <span>Departure:</span> 06:30 PT<br>
+    <span>Arrival:</span><p3>16:30 NT</p3><br>
+    <span>Status:</span> <span class="early"><p3>Early 45 minutes</p3></span>
+  </div>
+  <div class="flight-info">
+    <span>Flight:</span> CNAA0654 - Calgary (VCG) to St John's (YT)<br>
+    <span>Departure:</span> 06:30 MT<br>
+    <span>Arrival:</span><p1>15:30 NT</p1><br>
+    <span>Status:</span> <span class="delayed"><p1>Delayed 23 minutes<p1></span>
+  </div>
+</div>
+
+</body>
+</html>
