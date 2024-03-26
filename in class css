@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: purple thick solid;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+h1{
+    color: blue;
+}
+
+tfoot{
+    color: green;
+}
+
+tbody tr:nth-child(even){
+    background-color: plum
+}
+
+
+
+tr td:last-child{
+    text-align: right;
+}
+
+img {
+    width:150px;
+    height:150px;
+}
+
+th{
+    background-color: violet;
+}
