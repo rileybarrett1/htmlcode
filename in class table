@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta lang="eng">
+        <meta charset="UTF-8" lang="eng">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TPS</title>
+        <link rel="stylesheet" href="invoice.css">
+    </head>
+    <body>
+        <header>
+            <h1>A Table excercise</h1>
+        </header>
+        <main>
+        <table>
+            <thead>
+            <tr>
+                <td colspan="4">
+                    <img src="drover1.png" alt="iufgoishf">
+                </td>
+                <td>
+                    123 main<br>
+                    some city<br>
+                    newfoundland<br>
+                    A1A 1A1
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    Client:<br>
+                    john murphy
+                </td>
+                <td colspan="4" rowspan="2">
+                    <b><u>client address:</u></b><br>
+                    0 Deadend drive<br>
+                    Nowhere<br>
+                    Newfoundland<br>
+                    A0A 0A0
+
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Line</th>
+                <th>Item</th>
+                <th>QTY</th>
+                <th>UnitPrice</th>
+                <th>item Total</th>
+                
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>wingnut,3mm,#8, stainless</td>
+                <td>10</td>
+                <td>0.38</td>
+                <td>3.80</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>hex bolt,3mmx15mm,#8,
+                    stainless
+                </td>
+                <td>10</td>
+                <td>0.52</td>
+                <td>5.20</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>washer,3mmx9mm,stainless</td>
+                <td>20</td>
+                <td>0.12</td>
+                <td>2.40</td>
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="3">Invoice #1234<br>Date:03/22/2024</td>
+
+                
+                <td>Subtotal</td>
+                <td>11.40</td>
+            </tr>
+            <tr>
+                <td>Tax 15%</td>
+                <td>1.71</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>13.11</td>
+            </tr>
+            </tbody>
+        </table>
+        </main>
+    </body>
+</html>
