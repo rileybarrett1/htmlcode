@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.required {
+    color: red;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#post-form {
+    border: 1px solid rgba(228, 0, 43, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: rgba(228, 0, 43, 255);
+}
+
+.submit-btn, .reset-btn {
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+    background-color: pink;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-btn:hover, .reset-btn:hover {
+    opacity: 0.8;
+}
