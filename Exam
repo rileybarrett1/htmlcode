@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canada Post</title>
+<link rel="stylesheet" href="CanadaPost.css">
+</head>
+<body>
+<h1>Canada Post</h1>
+<img src="canada_post_logo.png" alt="Canada Post Logo">
+<div class="container">
+    <form id="post-form">
+        <div class="section">
+            <h2>Sender</h2>
+            <div class="input-group">
+                <label for="sender-name">Name<span class="required">*</span>:</label>
+                <input type="text" id="sender-name" required>
+            </div>
+            <div class="input-group">
+                <label for="sender-address">House/Apt # and Street:</label>
+                <input type="text" id="sender-address">
+            </div>
+            <div class="input-group">
+                <label for="sender-city">Town/City:</label>
+                <input type="text" id="sender-city">
+            </div>
+            <div class="input-group">
+                <label for="sender-postal-code">Postal Code:</label>
+                <input type="text" id="sender-postal-code">
+            </div>
+            <div class="input-group">
+                <label for="sender-province">Prov:</label>
+                <select id="sender-province">
+                    <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                </select>
+            </div>
+        </div>
+        <!-- Recipient section and other sections -->
+        <!-- Submit and Reset buttons -->
+    </form>
+</div>
+</body>
+</html>
